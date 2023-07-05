@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.viewtrailer{
+  min-height: 500px;
+  background-size: cover;
+  background-position:center;
+
+  display: flex;
+  align-items: flex-end;
+}
+.boton{
+  background-color: #0F1014;
+  color: white;
+  outline: none;
+  border: 1px solid white;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 10px;
+} 
+.reproductor{
+  width: 100%;
+  height: 600px;
+}
+
+
+.formulario{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.formulario input{
+  width: auto;
+}
+
+.row img{
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.row h4{
+  margin-top: 20px;
+}
+
+.row img:hover{
+  opacity: 0.6;
+}
+
